@@ -4,6 +4,12 @@ version = "0.1.0"
 description = ""
 authors = ["Roman Ashikov <rmn.shkv@gmail.com>"]
 readme = "README.md"
+packages = [
+  { include = "brain_games" },
+]
+
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
 
 [tool.poetry.dependencies]
 python = "^3.11"
