@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.x]
-        poetry-version: [1.x]
+        poetry-version: [1.7.0, 1.7.1]
 
     steps:
       - uses: actions/checkout@v4
