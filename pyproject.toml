@@ -12,7 +12,7 @@ packages = [
 brain-games = "brain_games.scripts.brain_games:main"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.10"
 prompt = "^0.4.1"
 
 
