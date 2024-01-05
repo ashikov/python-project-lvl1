@@ -1,0 +1,3 @@
+ROUNDS_COUNT = 3
+MIN = 1
+MAX = 100
