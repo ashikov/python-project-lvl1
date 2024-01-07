@@ -5,11 +5,11 @@ from math import sqrt
 
 
 def is_prime(number):
-    if number < 2:
+    if number <= 1:
         return False
 
-    divisor = 3
-    while divisor <=sqrt(number):
+    divisor = 2
+    while divisor <= sqrt(number):
         if number % divisor == 0:
             return False
         divisor += 1
