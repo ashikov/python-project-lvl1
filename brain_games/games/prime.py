@@ -33,6 +33,6 @@ def generate_game_data():
 
 
 def run():
-    description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    description = 'Answer "yes" if given number is prime. Otherwise answer "no".'  # noqa: E501
     game_data = generate_game_data()
     engine(game_data, description)
