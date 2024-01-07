@@ -15,7 +15,7 @@ def engine(game_data, description):
         userAnswer = string(f"Question: {question}\n")
 
         if userAnswer != answer:
-            f"{userAnswer} is wrong answer ;(. Correct answer was {answer}. Let\'s try again, {name}!" # noqa: E501
+            f"{userAnswer} is wrong answer ;(. Correct answer was {answer}. Let\'s try again, {name}!"  # noqa: E501
 
             return
 
