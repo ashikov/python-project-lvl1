@@ -8,6 +8,7 @@ def getGcd(number1, number2):
         return getGcd(number2, number1 % number2)
     return number1
 
+
 def generate_round_data(number1, number2):
     answer = getGcd(number1, number2)
 
