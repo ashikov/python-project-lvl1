@@ -39,6 +39,6 @@ def generate_game_data():
 
 
 def run():
-    description = 'Answer "yes" if the number is even, otherwise answer "no".'
+    description = 'What is the result of the expression?'
     game_data = generate_game_data()
     engine(game_data, description)
