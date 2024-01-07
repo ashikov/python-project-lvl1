@@ -12,10 +12,12 @@ def engine(game_data, description):
         question = round_data['question']
         answer = round_data['answer']
 
-        userAnswer = string(f"Question: {question}\n")
+        print(f"Question: {question}")
+
+        userAnswer = string("Your answer: ")
 
         if userAnswer != answer:
-            f"{userAnswer} is wrong answer ;(. Correct answer was {answer}. Let\'s try again, {name}!"  # noqa: E501
+            print(f"{userAnswer} is wrong answer ;(. Correct answer was {answer}. Let\'s try again, {name}!")  # noqa: E501
 
             return
 
